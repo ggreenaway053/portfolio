@@ -9,4 +9,6 @@ Some Features
 - Single page content edit (thanks ubaimutl!)
 - React-Boostrap
 
-get in touch - hi@garethgreenaway.co.uk :)
+get in touch if you like this project - hi@garethgreenaway.co.uk
+
+We're only getting started!
