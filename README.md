@@ -1,7 +1,7 @@
 # React Portfolio
 
 This is the source code of my portfolio - written in React. It is my first project written in React, with inspo & some source code taken from:
-[https://ubaimutl.github.io/react-portfolio/]
+[https://github.com/ubaimutl]
 
 Some Features
 - Fully Responsive

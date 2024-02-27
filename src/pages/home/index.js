@@ -11,8 +11,12 @@ export const Home = () => {
       <section id="home" className="home">
         <Helmet>
           <meta charSet="utf-8" />
-          <title> {meta.title}</title>
+          <title>{meta.title}</title>
+          <meta name="author" content="Gareth Greenaway" />
           <meta name="description" content={meta.description} />
+
+          <link rel="icon" href="https://garethgreenaway.co.uk/newsite/wp-content/uploads/2022/10/cropped-G-Logo-Basic-192x192.png" sizes="192x192" />
+          <link rel="apple-touch-icon" href="https://garethgreenaway.co.uk/newsite/wp-content/uploads/2022/10/cropped-G-Logo-Basic-192x192.png" sizes="192x192" />
         </Helmet>
         <div className="intro_sec d-block d-lg-flex align-items-center ">
           <div

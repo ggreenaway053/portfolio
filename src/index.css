@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
 :root {
     --bg-color: #0c0c0c;
     --primary-color: #0d0d0d;
@@ -30,7 +33,7 @@ body {
     overflow-y: visible;
     background-color: var(--bg-color);
     color: var(--text-color);
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Figtree', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     padding-top: 60px;
@@ -42,13 +45,9 @@ ul {
     list-style: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: Marcellus;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', Marcellus, serif;
+    font-weight: 400;
 }
 
 a,
@@ -68,10 +67,6 @@ p {
 .text_2,
 .text_2:hover {
     color: var(--text-color-2);
-}
-
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 .cursor__dot div {
