@@ -8,50 +8,50 @@ import {
   FaYoutube,
   FaTwitch,
 } from "react-icons/fa";
-import { socialprofils } from "../../content_option";
+import { socials } from "../../content_option";
 
 export const Socialicons = (params) => {
   return (
     <div className="stick_follow_icon">
       <ul>
-        {socialprofils.twitter && (
+        {socials.twitter && (
           <li>
-            <a href={socialprofils.twitter}>
+            <a href={socials.twitter}>
               <FaTwitter />
             </a>
           </li>
         )}
-        {socialprofils.github && (
+        {socials.github && (
           <li>
-            <a href={socialprofils.github}>
+            <a href={socials.github}>
               <FaGithub />
             </a>
           </li>
         )}
-        {socialprofils.facebook && (
+        {socials.facebook && (
           <li>
-            <a href={socialprofils.facebook}>
+            <a href={socials.facebook}>
               <FaFacebookF />
             </a>
           </li>
         )}
-        {socialprofils.linkedin && (
+        {socials.linkedin && (
           <li>
-            <a href={socialprofils.linkedin}>
+            <a href={socials.linkedin}>
               <FaLinkedin />
             </a>
           </li>
         )}
-        {socialprofils.youtube && (
+        {socials.youtube && (
           <li>
-            <a href={socialprofils.youtube}>
+            <a href={socials.youtube}>
               <FaYoutube />
             </a>
           </li>
         )}
-        {socialprofils.twitch && (
+        {socials.twitch && (
           <li>
-            <a href={socialprofils.twitch}>
+            <a href={socials.twitch}>
               <FaTwitch />
             </a>
           </li>

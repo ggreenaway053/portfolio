@@ -143,7 +143,7 @@ const contactConfig = {
   YOUR_USER_ID: "user_id",
 };
 
-const socialprofils = {
+const socials = {
   github: "https://github.com/ggreenaway053",
   youtube: "https://www.youtube.com/channel/UCWxtdcPeLmvSku67D6FT_wA",
   linkedin: "https://www.linkedin.com/in/gareth-greenaway-6a5389141/"
@@ -157,6 +157,6 @@ export {
   services,
   introdata,
   contactConfig,
-  socialprofils,
+  socials,
   logotext,
 };
