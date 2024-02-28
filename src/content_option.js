@@ -1,3 +1,8 @@
+import cnaz from "./assets/images/portfolio/cnaz-portfolio-img.jpg";
+import lb from "./assets/images/portfolio/lb-portfolio-img.jpg";
+import wni from "./assets/images/portfolio/wni-portfolio-img.jpg";
+import krw from "./assets/images/portfolio/krw-portfolio-img.jpg";
+
 const logotext = "GARETH";
 const meta = {
   title: "Gareth Greenaway",
@@ -7,57 +12,13 @@ const meta = {
 const introdata = {
   title: "Hello! 👋",
   animated: {
-    first: "I'm Gareth",
-    second: "I'm a full-stack developer"
+    first: "I'm Gareth"
   },
-  description: "I specialise in custom Wordpress & Shopify development.",
-  your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+  description: "I specialise in custom Wordpress & Shopify development."
 };
 
-const dataabout = {
-  title: "abit about my self",
-  aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
-};
-const worktimeline = [{
-    jobtitle: "Designer of week",
-    where: "YAdfi",
-    date: "2020",
-  },
+const services = [
   {
-    jobtitle: "Designer of week",
-    where: "Jamalya",
-    date: "2019",
-  },
-  {
-    jobtitle: "Designer of week",
-    where: "ALquds",
-    date: "2019",
-  },
-];
-
-const skills = [{
-    name: "Python",
-    value: 90,
-  },
-  {
-    name: "Djano",
-    value: 85,
-  },
-  {
-    name: "Javascript",
-    value: 80,
-  },
-  {
-    name: "React",
-    value: 60,
-  },
-  {
-    name: "Jquery",
-    value: 85,
-  },
-];
-
-const services = [{
     title: "UI & UX Design",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
   },
@@ -71,76 +32,46 @@ const services = [{
   },
 ];
 
-const dataportfolio = [{
-    img: "https://picsum.photos/400/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+const dataportfolio = [
+  {
+    img: cnaz,
+    title: "Carrick Nazarene",
+    type: "Volunteer Freelance Project",
+    who: "Carrick Nazarene is a local church where I am a member & volunteer in a few different ministries. We are a Christian church, with the overarching Nazarene church being founded back in 1908.",
+    tech: "WordPress, HTML, SCSS, Bootstrap 5, Javascript / jQuery, Figma, Google APIs, Magnific Popups",
+    link: "https://carricknazarene.co.uk",
   },
   {
-    img: "https://picsum.photos/400/800/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    img: lb,
+    title: "Linenbundle",
+    type: "Sole Web Developer | Current full time role",
+    description: "",
+    link: "https://www.linenbundle.com",
   },
   {
-    img: "https://picsum.photos/400/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    img: wni,
+    title: "WebsiteNI",
+    type: "Front End Developer",
+    description: "",
+    link: "https://websiteni.com",
   },
   {
-    img: "https://picsum.photos/400/600/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/300/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/700/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/600/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/300/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/550/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/700/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
+    img: krw,
+    title: "Keylite Roof Windows",
+    type: "Web Designer/Developer",
+    description: "",
+    link: "https://www.keyliteroofwindows.com",
+  }
 ];
 
 const contactConfig = {
   YOUR_EMAIL: "hi@garethgreenaway.co.uk",
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+  description: "I'd love to hear from you, whether it's just for a chat or to talk work!",
   // creat an emailjs.com account 
   // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-  YOUR_SERVICE_ID: "service_id",
-  YOUR_TEMPLATE_ID: "template_id",
-  YOUR_USER_ID: "user_id",
+  YOUR_SERVICE_ID: "service_y93lhhf",
+  YOUR_TEMPLATE_ID: "template_kryxvqt",
+  YOUR_USER_ID: "PusWyu9H2PzG1p2Dt",
 };
 
 const socials = {
@@ -150,10 +81,7 @@ const socials = {
 };
 export {
   meta,
-  dataabout,
   dataportfolio,
-  worktimeline,
-  skills,
   services,
   introdata,
   contactConfig,

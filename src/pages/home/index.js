@@ -1,9 +1,11 @@
 import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import Typewriter from "typewriter-effect";
+// import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
+
+import Banner from "../../assets/images/home-main-1.png";
 
 export const Home = () => {
   return (
@@ -17,7 +19,7 @@ export const Home = () => {
       <section id="home" className="home container-fluid">
         <div className="intro_sec row">
 
-          <div className="col-12 col-lg image order-lg-2 d-flex justify-content-center align-items-center">
+          <div className="col-12 col-lg image order-lg-2 d-flex justify-content-center align-items-center px-0 px-lg-4">
             <svg className="svg svg-circle" viewBox="0 0 500 500" style={{maxWidth: "500px"}} >
               <path d="M405.5,323Q334,396,231,428.5Q128,461,97,355.5Q66,250,119.5,183.5Q173,117,266.5,88Q360,59,418.5,154.5Q477,250,405.5,323Z" fill="#65B7EF">
                 <animate attributeName="d" dur="10s" repeatCount="indefinite" values="M405.5,323Q334,396,231,428.5Q128,461,97,355.5Q66,250,119.5,183.5Q173,117,266.5,88Q360,59,418.5,154.5Q477,250,405.5,323Z;
@@ -28,29 +30,21 @@ export const Home = () => {
                 <animateTransform attributeName="transform" type="rotate" dur="20s" repeatCount="indefinite" from="0,250,250" to="360,250,250"></animateTransform>
               </path>
             </svg>
+
+            <img src={Banner} alt="Avatar" title="Avatar" className="avatar position-absolute" />
           </div>
 
           <div className="col-12 col-lg content order-lg-1 d-lg-flex align-items-center justify-content-center">
             <div className="inner">
               <h2 className="mb-1x">{introdata.title}</h2>
               <h1 className="fluidz-48 mb-1x">
-                <Typewriter
-                  options={{
-                    strings: [
-                      introdata.animated.first,
-                      introdata.animated.second,
-                      introdata.animated.third,
-                    ],
-                    autoStart: true,
-                    loop: true,
-                    deleteSpeed: 10,
-                  }}
-                />
+                {introdata.animated.first}
+                
               </h1>
               <p className="mb-1x">{introdata.description}</p>
               <div className="intro_btn-action pb-5 pb-lg-0">
-                <Link to="/portfolio" className="ac_btn btn">Recent Work</Link>
-                <Link to="/contact" className="btn ac_btn">Let's Chat</Link>
+                <Link to="/work" className="btn me-3"><span>Recent Work</span></Link>
+                <Link to="/contact" className="btn"><span>Let's Chat</span></Link>
               </div>
 
             </div>

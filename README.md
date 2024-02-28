@@ -11,4 +11,11 @@ Some Features
 
 get in touch if you like this project - hi@garethgreenaway.co.uk
 
+Feel free to fork this & edit how you want.
+
+To start the dev server do the following commands:
+
+yarn install (one time)
+yarn start
+
 We're only getting started!

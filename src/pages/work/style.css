@@ -1,0 +1,30 @@
+.portfolio_items .item img {
+  width: 100%;
+  display: block;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  filter: grayscale(1);
+  transition: .45s all;
+}
+.portfolio_items .item:hover img{
+  filter: grayscale(0);
+}
+
+.popup-overlay{
+  background: rgba(255, 255, 255, .5);
+}
+.popup-overlay .popup-content{
+  background: var(--bg-color);
+  color: var(--text-color);
+  padding: 1rem;
+  max-width: 95%;
+  width: 800px;
+  border-radius: 6px;
+}
+
+@media all and (min-width: 1024px){
+  .portfolio_items .item img{
+    max-height: 400px;
+  }
+}

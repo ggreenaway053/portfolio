@@ -44,7 +44,7 @@ const Headermain = () => {
                     <Link onClick={handleToggle} to="/">Home</Link>
                   </li>
                   <li className="menu_item my-3">
-                    <Link onClick={handleToggle} to="/portfolio">Portfolio</Link>
+                    <Link onClick={handleToggle} to="/work">Recent Work</Link>
                   </li>
                   <li className="menu_item my-3">
                     <Link onClick={handleToggle} to="/contact">Contact</Link>
@@ -54,10 +54,10 @@ const Headermain = () => {
             </div>
           </div>
 
-          <div className="menu_footer d-flex justify-content-between align-items-md-center position-absolute w-100 p-3">
+          <div className="menu_footer d-flex justify-content-between align-items-center position-absolute w-100 p-3">
             <div className="d-flex">
-              <a href={socials.github}><FaGithub /></a>
-              <a href={socials.youtube}><FaYoutube /></a>
+              <a href={socials.github} className="me-2"><FaGithub /></a>
+              <a href={socials.youtube} className="me-2"><FaYoutube /></a>
               <a href={socials.linkedin}><FaLinkedin /></a>
             </div>
             <p className="m-0">&copy; {today.getFullYear()} | {logotext}</p>
