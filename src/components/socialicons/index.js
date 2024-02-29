@@ -16,42 +16,42 @@ export const Socialicons = (params) => {
       <ul>
         {socials.twitter && (
           <li>
-            <a href={socials.twitter}>
+            <a target="_blank" href={socials.twitter}>
               <FaTwitter />
             </a>
           </li>
         )}
         {socials.github && (
           <li>
-            <a href={socials.github}>
+            <a target="_blank" href={socials.github}>
               <FaGithub />
             </a>
           </li>
         )}
         {socials.facebook && (
           <li>
-            <a href={socials.facebook}>
+            <a target="_blank" href={socials.facebook}>
               <FaFacebookF />
             </a>
           </li>
         )}
         {socials.linkedin && (
           <li>
-            <a href={socials.linkedin}>
+            <a target="_blank" href={socials.linkedin}>
               <FaLinkedin />
             </a>
           </li>
         )}
         {socials.youtube && (
           <li>
-            <a href={socials.youtube}>
+            <a target="_blank" href={socials.youtube}>
               <FaYoutube />
             </a>
           </li>
         )}
         {socials.twitch && (
           <li>
-            <a href={socials.twitch}>
+            <a target="_blank" href={socials.twitch}>
               <FaTwitch />
             </a>
           </li>

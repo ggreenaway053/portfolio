@@ -110,9 +110,9 @@ export const ContactUs = () => {
             </address>
 
             <div class="socials d-flex">
-              <a href={socials.github} className="me-2"><FaGithub /></a>
-              <a href={socials.linkedin} className="me-2"><FaLinkedin /></a>
-              <a href={socials.youtube}><FaYoutube /></a>
+              <a target="_blank" href={socials.github} className="me-2"><FaGithub /></a>
+              <a target="_blank" href={socials.linkedin} className="me-2"><FaLinkedin /></a>
+              <a target="_blank" href={socials.youtube}><FaYoutube /></a>
             </div>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
