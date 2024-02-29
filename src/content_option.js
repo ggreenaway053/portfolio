@@ -3,6 +3,8 @@ import lb from "./assets/images/portfolio/lb-portfolio-img.jpg";
 import wni from "./assets/images/portfolio/wni-portfolio-img.jpg";
 import krw from "./assets/images/portfolio/krw-portfolio-img.jpg";
 
+import { Link } from "react-router-dom";
+
 const logotext = "GARETH";
 const meta = {
   title: "Gareth Greenaway",
@@ -18,23 +20,8 @@ const introdata = {
 };
 
 const about = {
-  main: <h2 className="mb-4 display-6">I specialise in <span className="reveal">Wordpress</span> and <span className="reveal">Shopify</span> websites & love bringing ideas from design to life on the web. With over 7 years web experience & several projects returning <span className="reveal">£ millions in revenue</span>; <a className="d-inline-block d-lg-inline" href="/contact">let's talk</a>.</h2>
+  main: <h2 className="mb-4 display-6">I specialise in <span className="reveal">Wordpress</span> and <span className="reveal">Shopify</span> websites & love bringing ideas from design to life on the web. With over 7 years web experience & several projects returning <span className="reveal">£ millions in revenue</span>; <Link to="/contact" className="d-inline-block d-lg-inline">let's talk</Link>.</h2>
 }
-
-const services = [
-  {
-    title: "UI & UX Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-  },
-  {
-    title: "Mobile Apps",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-  },
-  {
-    title: "Wordpress Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-  },
-];
 
 const dataportfolio = [
   {
@@ -89,7 +76,6 @@ const socials = {
 export {
   meta,
   dataportfolio,
-  services,
   introdata,
   contactConfig,
   socials,
