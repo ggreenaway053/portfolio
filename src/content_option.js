@@ -14,8 +14,12 @@ const introdata = {
   animated: {
     first: "I'm Gareth"
   },
-  description: "I specialise in custom Wordpress & Shopify development."
+  description: "Highly motivated, dedicated and design-driven."
 };
+
+const about = {
+  main: <h2 className="mb-4 display-6">I specialise in <span className="reveal">Wordpress</span> and <span className="reveal">Shopify</span> websites & love bringing ideas from design to life on the web. With over 7 years web experience & several projects returning <span className="reveal">£ millions in revenue</span>; <a className="d-inline-block d-lg-inline" href="/contact">let's talk</a>.</h2>
+}
 
 const services = [
   {
@@ -38,28 +42,31 @@ const dataportfolio = [
     title: "Carrick Nazarene",
     type: "Volunteer Freelance Project",
     who: "Carrick Nazarene is a local church where I am a member & volunteer in a few different ministries. We are a Christian church, with the overarching Nazarene church being founded back in 1908.",
-    tech: "WordPress, HTML, SCSS, Bootstrap 5, Javascript / jQuery, Figma, Google APIs, Magnific Popups",
+    tech: <ul><li>Wordpress</li><li>HTML</li><li>SCSS</li><li>Bootstrap 5</li><li>Javascript</li><li>jQuery</li><li>Figma</li><li>Google APIs</li><li>npm</li></ul>,
     link: "https://carricknazarene.co.uk",
   },
   {
     img: lb,
     title: "Linenbundle",
     type: "Sole Web Developer | Current full time role",
-    description: "",
+    who: "Linenbundle are the EU’s fastest growing luxury bed linen brand. They started around 2017 and quickly became popular in the UK and Ireland. Since then they have branched out into numerous EU countries and continue to grow today.",
+    tech: <ul><li>Shopify</li><li>Liquid</li><li>HTML</li><li>SCSS</li><li>Bootstrap 5</li><li>Javascript</li><li>jQuery</li><li>PHP</li><li>Figma</li><li>Wordpress</li><li>npm</li><li>Shopify APIs</li></ul>,
     link: "https://www.linenbundle.com",
   },
   {
     img: wni,
     title: "WebsiteNI",
     type: "Front End Developer",
-    description: "",
+    who: "WebsiteNI are a Web Development Agency based in Dungannon, Northern Ireland. They provide clients with fully responsive, editable WordPress websites. I worked at WebsiteNI for around 18 months, leaving to join Linenbundle in February 2022.",
+    tech: <ul><li>Wordpress</li><li>HTML</li><li>SCSS</li><li>Foundation</li><li>Javascript</li><li>jQuery</li><li>PHP</li><li>npm</li><li>Magento 2</li></ul>,
     link: "https://websiteni.com",
   },
   {
     img: krw,
     title: "Keylite Roof Windows",
     type: "Web Designer/Developer",
-    description: "",
+    who: "Keylite Roof Windows are Europes fastest growing roof window manufacturer. They are one of the top 3 players between Velux, themsevles and Fakro. Keylite are part of the Keystone Group, based in Cookstown. I worked for Keylite between 2017 & 2020.",
+    tech: <ul><li>Wordpress</li><li>HTML</li><li>CSS</li><li>PHP</li><li>Javascript</li><li>jQuery</li><li>PHP</li><li>MySQL</li></ul>,
     link: "https://www.keyliteroofwindows.com",
   }
 ];
@@ -87,4 +94,5 @@ export {
   contactConfig,
   socials,
   logotext,
+  about
 };

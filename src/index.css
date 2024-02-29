@@ -1,6 +1,6 @@
 :root {
-  --bg-color: #171717;
-  --primary-color: #171717;
+  --bg-color: #00111C;
+  --primary-color: #00111C;
   --secondary-color: #fff;
   --text-color: #fff;
   --text-color-2: #fff;
@@ -12,9 +12,9 @@
 [data-theme="light"] {
   --bg-color: #ffffff;
   --primary-color: #ffffff;
-  --secondary-color: #171717;
-  --text-color: #171717;
-  --text-color-2: #171717;
+  --secondary-color: #00111C;
+  --text-color: #00111C;
+  --text-color-2: #00111C;
   --text-color-3: #65b7ef;
   --overlay-color: rgb(255 255 255 / 70%);
   --white: #fff;
@@ -94,7 +94,7 @@ p {
   color: var(--secondary-color);
 }
 
-.btn{
+.btn {
   border-radius: 50px;
   padding: 4px 19px;
   color: var(--secondary-color);
@@ -104,11 +104,13 @@ p {
   transition: all .35s;
   cursor: pointer;
 }
-.btn span{
+
+.btn span {
   position: relative;
   z-index: 2;
 }
-.btn:after{
+
+.btn:after {
   position: absolute;
   content: "";
   top: 0;
@@ -118,10 +120,57 @@ p {
   background: var(--text-color-3);
   transition: all .35s;
 }
+
 .btn:hover {
   color: var(--white);
   border: var(--text-color-3) 2px solid;
 }
-.btn:hover:after{
+
+.btn:hover:after {
   width: 100%;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+.fadeIn{
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+.fadeOut{
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
 }
