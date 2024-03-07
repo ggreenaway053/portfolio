@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c53af900.css",
+    "main.js": "/static/js/main.e95394ef.js",
+    "static/media/home-main-update.png": "/static/media/home-main-update.94743b4449d746f3b79f.png",
+    "static/media/cnaz-portfolio-img.jpg": "/static/media/cnaz-portfolio-img.1c4305fe6c6bf3b3fd10.jpg",
+    "static/media/wni-portfolio-img.jpg": "/static/media/wni-portfolio-img.1acacadf141fbca12770.jpg",
+    "static/media/krw-portfolio-img.jpg": "/static/media/krw-portfolio-img.654284b72a44ec45fe96.jpg",
+    "static/media/lb-portfolio-img.jpg": "/static/media/lb-portfolio-img.86d999190904ce64d072.jpg",
+    "index.html": "/index.html",
+    "main.c53af900.css.map": "/static/css/main.c53af900.css.map",
+    "main.e95394ef.js.map": "/static/js/main.e95394ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c53af900.css",
+    "static/js/main.e95394ef.js"
+  ]
+}

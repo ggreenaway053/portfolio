@@ -5,7 +5,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { introdata, meta, dataportfolio, about } from "../../content_option";
 import { Link } from "react-router-dom";
 
-import Banner from "../../assets/images/home-main-1.png";
+import Banner from "../../assets/images/home-main-update.png";
 
 import { Container, Row, Col } from "react-bootstrap";
 import Popup from "reactjs-popup";
